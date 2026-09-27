@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From Noise Diffusion to Noise Flow Models: Hands-On PyTorch Lightning Coding — Dr. Caide Xiao</title>
+<meta name="description" content="Advanced hands-on guide for machine learning engineers covering noise diffusion, flow matching models, and self-supervised architectures with production-grade PyTorch Lightning implementations. By Dr. Caide Xiao.">
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/noise-diffusion-book/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": "From Noise Diffusion to Noise Flow Models: Hands-On PyTorch Lightning Coding",
+  "author": {
+    "@type": "Person",
+    "name": "Caide Xiao",
+    "description": "Author of Super Optical Biosensors and Mastering Computer Vision with PyTorch and Machine Learning (IOP Publishing)."
+  },
+  "datePublished": "2026-08-16",
+  "bookEdition": "First Edition",
+  "inLanguage": "en",
+  "numberOfPages": 305,
+  "isbn": ["979-8-191-99856-5", "979-8-193-00096-9"],
+  "description": "Advanced guide for machine learning engineers covering noise diffusion, flow matching models, and self-supervised architectures with production-grade PyTorch Lightning implementations.",
+  "about": ["Diffusion models", "Flow matching", "PyTorch Lightning", "Computer vision", "Self-supervised learning"],
+  "publisher": { "@type": "Person", "name": "Caide Xiao" }
+}
+</script>
+<style>
+  :root { --ink: #1a1a2e; --accent: #e07b39; --bg: #faf9f7; --muted: #5b5b6e; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--bg); color: var(--ink); line-height: 1.7; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  header.hero { display: flex; gap: 2.5rem; flex-wrap: wrap; align-items: flex-start; margin-bottom: 3rem; }
+  .cover { flex: 0 0 280px; }
+  .cover img { width: 100%; border-radius: 6px; box-shadow: 0 12px 32px rgba(0,0,0,.18); }
+  .intro { flex: 1 1 320px; }
+  .kicker { font-family: system-ui, sans-serif; text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; color: var(--accent); margin-bottom: .5rem; }
+  h1 { font-size: 2rem; line-height: 1.25; margin-bottom: .5rem; }
+  .author { font-family: system-ui, sans-serif; color: var(--muted); margin-bottom: 1.25rem; }
+  .blurb { font-size: 1.1rem; margin-bottom: 1.5rem; }
+  .btn { display: inline-block; font-family: system-ui, sans-serif; background: var(--accent); color: #fff; text-decoration: none; padding: .8rem 1.6rem; border-radius: 6px; font-weight: 600; margin: .25rem .5rem .25rem 0; }
+  .btn.ghost { background: transparent; color: var(--ink); border: 2px solid var(--ink); }
+  section { margin-bottom: 2.5rem; }
+  h2 { font-size: 1.4rem; margin-bottom: .75rem; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: .2rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: .5rem; }
+  .meta { font-family: system-ui, sans-serif; font-size: .95rem; color: var(--muted); }
+  .meta dt { font-weight: 700; color: var(--ink); }
+  .meta dd { margin: 0 0 .6rem 0; }
+  footer { font-family: system-ui, sans-serif; font-size: .85rem; color: var(--muted); border-top: 1px solid #ddd; padding-top: 1rem; }
+  @media (max-width: 640px) { header.hero { gap: 1.5rem; } .cover { flex-basis: 200px; } h1 { font-size: 1.6rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="cover">
+      <img src="cover.jpg" alt="Book cover: From Noise Diffusion to Noise Flow Models: Hands-On PyTorch Lightning Coding by Dr. Caide Xiao">
+    </div>
+    <div class="intro">
+      <div class="kicker">New &middot; First Edition, August 2026</div>
+      <h1>From Noise Diffusion to Noise Flow Models: Hands-On PyTorch Lightning Coding</h1>
+      <div class="author">by Dr. Caide Xiao</div>
+      <p class="blurb">Advanced guide for machine learning engineers covering noise diffusion, flow matching models, and self-supervised architectures with production-grade PyTorch Lightning implementations.</p>
+      <a class="btn" href="https://read.amazon.com/sample/B0HFM7SC19?clientId=share">Read a Sample</a>
+      <!-- Replace the hrefs below with your paperback and hardcover store links -->
+      <a class="btn ghost" href="https://www.amazon.com/dp/B0HFM7SC19">Buy on Amazon</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About This Book</h2>
+    <ul>
+      <li><strong>Advanced PyTorch Lightning architecture:</strong> modular, production-grade coding paradigms and design patterns that go beyond standard online documentation and basic tutorials.</li>
+      <li><strong>Math-to-code implementation:</strong> connects formal mathematical equations for cutting-edge computer vision algorithms directly to runnable code, complete with pre-trained checkpoints.</li>
+      <li><strong>Zero-hardware-barrier learning:</strong> fully integrated with Kaggle's cloud GPU/TPU platform — run and train every model without investing in expensive local hardware.</li>
+    </ul>
+    <p style="margin-top:1rem">Topics include PyTorch Lightning, GAN, VAE, VQ-GAN, EMA, ViT, DiT, CLIP, DDPM, DDIM, LeJEPA, I-JEPA, flow matching, FFT, DWT, and more. All project code and interactive notebooks are hosted on Kaggle, with direct cloud-executable links in every project.</p>
+  </section>
+
+  <section>
+    <h2>Book Details</h2>
+    <dl class="meta">
+      <dt>Title</dt><dd>From Noise Diffusion to Noise Flow Models: Hands-On PyTorch Lightning Coding</dd>
+      <dt>Author</dt><dd>Dr. Caide Xiao</dd>
+      <dt>Edition</dt><dd>First Edition, August 2026</dd>
+      <dt>Publication date</dt><dd>August 16, 2026</dd>
+      <dt>Print length</dt><dd>305 pages</dd>
+      <dt>Dimensions</dt><dd>7 x 0.69 x 10 inches</dd>
+      <dt>Language</dt><dd>English</dd>
+      <dt>ISBN (paperback)</dt><dd>979-8-191-99856-5</dd>
+      <dt>ISBN (hardcover)</dt><dd>979-8-193-00096-9</dd>
+      <dt>Companion code</dt><dd>Interactive Kaggle notebooks with cloud GPU execution</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>About the Author</h2>
+    <p>Dr. Caide Xiao is the author of <em>Super Optical Biosensors</em> and <em>Mastering Computer Vision with PyTorch and Machine Learning</em> (IOP Publishing). His work bridges mathematical theory and runnable code, with a focus on computer vision and deep learning.</p>
+  </section>
+
+  <footer>
+    <p>Copyright &copy; 2026 by Dr. Caide Xiao. All rights reserved.</p>
+  </footer>
+
+</div>
+</body>
+</html>
